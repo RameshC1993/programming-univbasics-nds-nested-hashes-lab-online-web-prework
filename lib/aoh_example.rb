@@ -28,4 +28,5 @@ end
 
 def aoh_update(aoh, row, key, new_value)
   result = aoh[row][key] = new_value.to_i 
+  return result 
 end
